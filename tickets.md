@@ -67,10 +67,13 @@
 - [optiodds_adapter.go](internal/adapter/optiodds_adapter.go) - HTTP polling adapter
 - [odds_aggregator.go](internal/aggregator/odds_aggregator.go) - Batching and Kafka publishing
 
-## Tickets to Create in Asana
+## Proposed New Tickets (Created in Asana)
 
-### 1. [NEW] Create README and Documentation (P0)
-**Proposed Priority**: P0 (No documentation exists)
+### 2. Create README and Documentation
+**Task ID**: 1211847538940041
+**ENG**: Pending assignment (task needs to be added to MDS project)
+**URL**: https://app.asana.com/0/1211254851871080/1211847538940041
+**Priority**: P0
 **Type**: documentation
 **Assignee**: sj@cypherlab.tech
 **Labels**: Backend, odds-adapter-service, Documentation
@@ -111,8 +114,11 @@ Service has NO README.md file. Developers cannot understand:
 
 ---
 
-### 2. [NEW] Implement Proper Readiness Check (P1)
-**Proposed Priority**: P1 (Required for Kubernetes deployment)
+### 3. Implement Proper Readiness Check
+**Task ID**: 1211847543083000
+**ENG**: Pending assignment (task needs to be added to MDS project)
+**URL**: https://app.asana.com/0/1211254851871080/1211847543083000
+**Priority**: P1
 **Type**: feature
 **Assignee**: sj@cypherlab.tech
 **Labels**: Backend, odds-adapter-service, Health Checks
@@ -148,8 +154,11 @@ Readiness handler has TODO comment ([main.go:166](cmd/server/main.go#L166)) and 
 
 ---
 
-### 3. [NEW] Add Redis Persistence Layer (P1)
-**Proposed Priority**: P1 (Performance and reliability)
+### 4. Add Redis Persistence Layer
+**Task ID**: 1211847541388028
+**ENG**: Pending assignment (task needs to be added to MDS project)
+**URL**: https://app.asana.com/0/1211254851871080/1211847541388028
+**Priority**: P1
 **Type**: feature
 **Assignee**: sj@cypherlab.tech
 **Labels**: Backend, odds-adapter-service, Redis, Caching
@@ -195,8 +204,11 @@ Service has no persistence layer. Issues:
 
 ---
 
-### 4. [NEW] Add Data Validation and Sanitization (P1)
-**Proposed Priority**: P1 (Data quality and security)
+### 5. Add Data Validation and Sanitization
+**Task ID**: 1211847544234008
+**ENG**: Pending assignment (task needs to be added to MDS project)
+**URL**: https://app.asana.com/0/1211254851871080/1211847544234008
+**Priority**: P1
 **Type**: feature
 **Assignee**: sj@cypherlab.tech
 **Labels**: Backend, odds-adapter-service, Data Quality
@@ -239,8 +251,11 @@ Raw provider data is sent to Kafka without validation:
 
 ---
 
-### 5. [NEW] Add Resilience Patterns (P2)
-**Proposed Priority**: P2 (Production reliability)
+### 6. Add Resilience Patterns
+**Task ID**: 1211847703976143
+**ENG**: Pending assignment (task needs to be added to MDS project)
+**URL**: https://app.asana.com/0/1211254851871080/1211847703976143
+**Priority**: P2
 **Type**: feature
 **Assignee**: sj@cypherlab.tech
 **Labels**: Backend, odds-adapter-service, Reliability
@@ -289,8 +304,11 @@ Service has no resilience patterns:
 
 ---
 
-### 6. [NEW] Add Comprehensive Metrics (P2)
-**Proposed Priority**: P2 (Observability)
+### 7. Add Comprehensive Metrics
+**Task ID**: 1211847640858429
+**ENG**: Pending assignment (task needs to be added to MDS project)
+**URL**: https://app.asana.com/0/1211254851871080/1211847640858429
+**Priority**: P2
 **Type**: feature
 **Assignee**: sj@cypherlab.tech
 **Labels**: Backend, odds-adapter-service, Observability
